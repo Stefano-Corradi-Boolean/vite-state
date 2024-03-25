@@ -13,7 +13,8 @@ import {store} from '../data/store'
 
 <template>
   <div class="text-center my-5">
-    <h1>{{ store.counter }}</h1>
+    <h1>{{ store.mainTitle }}</h1>
+    <h2>{{ store.counter }}</h2>
   </div>
 </template>
 

@@ -11,8 +11,9 @@ import {store} from '../data/store'
 
 
 <template>
-  <div class="text-center my-5">
-    <butto @click="store.counter++" class="btn btn-primary ">Incrementa contatore</butto>
+  <div class="text-center my-5 container">
+    <button @click="store.counter++" class="btn btn-primary mb-5">Incrementa contatore</button>
+    <input class="form-control" type="text" v-model="store.mainTitle">
   </div>
 </template>
 
